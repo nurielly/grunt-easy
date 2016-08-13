@@ -9,7 +9,7 @@ Para criá-lo, executamos o seguinte comando no terminal. (O terminal deve estar
 npm init
 ```
 
-O terminal irá realizar algumas perguntas sobre qual o nome do projeto, versão, descrição, entre outras. Você poderá preencher as informações, ou pressionar 'ENTER', para cada uma delas, que serão preenchidos com valores padrão.
+O terminal irá realizar algumas perguntas sobre qual o nome do projeto, versão, descrição, entre outros. Você poderá preencher ou deixar em branco e pressionar 'ENTER'. Se deixado em branco, os campos serão preenchidos com valor padrão.
 
 ```
 name: (projeto)
@@ -57,7 +57,7 @@ npm install grunt-cli -g
 
 # GRUNTFILE.JS
 
-O gruntfile.js, é o arquivo onde configuramos as tasks(Tarefas), a serem automatizadas. Sintase do arquivo: 
+O gruntfile.js, é o arquivo onde configuramos as tasks(Tarefas), a serem automatizadas. Sintaxe do arquivo: 
 
 ```
 module.exports = function(grunt) {
