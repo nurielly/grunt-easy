@@ -3,13 +3,13 @@
 **Antes de inciar, voce deverá ter o nodeJs instalado.****
 
 Para inciarmos precisamos de um arquivos chamado 'package.json', onde são armazenados os módulos necessários para rodar nossa aplicação e informações sobre a aplicação.
-Para cria-lo, executamos o seguinte comando no terminal. (O terminal deve estar apontado para a pasta do projeto)
+Para criá-lo, executamos o seguinte comando no terminal. (O terminal deve estar apontado para a pasta do projeto)
 
 ```
 npm init
 ```
 
-O terminal ira realizar algumas perguntas sobre qual o nome do projeto, versão, descrição,entre outras, você poderá preencher as informação, ou pressionar 'ENTER', para cada uma delas, que será preenchido com valores padrão.
+O terminal irá realizar algumas perguntas sobre qual o nome do projeto, versão, descrição, entre outras. Você poderá preencher as informações, ou pressionar 'ENTER', para cada uma delas, que serão preenchidos com valores padrão.
 
 ```
 name: (projeto)
@@ -42,7 +42,7 @@ O resultado do packge.json, será algo parecido com isso:
 # Instalação do Grunt
 
 Cada vez que o grunt é executado, ele procura por um Grunt instalado localmente usando node require() do sistema. Devido a isso, você pode executar grunt de qualquer subpasta em seu projeto.
-Se um Grunt instalado localmente for encontrado, o CLI carrega o local de instalação da biblioteca Grunt, aplica-se a configuração do seu Gruntfile , e executa todas as tarefas que você pediu para que ele seja executado. " 
+Se um Grunt instalado localmente for encontrado, o CLI carrega o local de instalação da biblioteca Grunt, aplica-se a configuração do seu Gruntfile, e executa todas as tarefas que você pediu para que ele seja executado. " 
 
 Agora vamos instalar o grunt e o grunt-cli:
 
@@ -53,7 +53,7 @@ npm install grunt-cli -g
 ```
 
 * Usamos o --save-dev, no final do comando de instalação para que seja adicionado a dependência do modulo no package.json, assim quando instalar o aplicativo para rodar, o nodejs já ira baixar e instalar as dependências automaticamente, e não precisamos nos preocupar em lembrar e instalar uma a uma.
-* Usamos o -g, para instalar o modulo globalmente, assim não precisamos instala -lo para cada projeto.
+* Usamos o -g, para instalar o modulo globalmente, assim não precisamos instalá-lo para cada projeto.
 
 # GRUNTFILE.JS
 
@@ -72,7 +72,7 @@ module.exports = function(grunt) {
 }
 ```
 
-* Primeiramente temos um modulo que recebe uma função com o grunt como parametro. Essa função realiza a chamada do metodo initConfig, que como o proprio nome diz, a inicialização das configurações, e onde nossos plugins serao configurados.
+* Primeiramente temos um módulo que recebe uma função com o grunt como parâmetro. Essa função realiza a chamada do método initConfig, que como o préprio nome diz, a inicialização das configurações, e onde nossos plugins serão configurados.
 
 
 
