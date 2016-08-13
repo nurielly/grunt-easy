@@ -1,4 +1,4 @@
 # Grunt Easy
-Artigos e Tutoriais sobre Grunt.
+Resumo sobre o estudo de Grunt.
 
 {% include "SUMMARY.md" %}
