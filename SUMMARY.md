@@ -1,6 +1,6 @@
 # Summary
 
-* [Introdução](cap/introducao.md)
+* [Introdução](README.md)
 * [Preparação do Ambiente](cap/ambiente.md)
 * [GRUNT-CONTRIB-COPY](cap/grunt-contrib-copy.md)
 * [GRUNT-CONTRIB-CLEAN](cap/grunt-contrib-clean.md)
