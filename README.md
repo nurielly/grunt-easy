@@ -1,7 +1,5 @@
 # Estudo sobre Grunt
 
-\[PDF ou EPUB\]\(https://www.gitbook.com/book/nurycaroline/estudo\_grunt/details\)
-
 Resumo sobre o estudo de Grunt.
 
 Todo desenvolvedor tem problemas com execução de tarefas repetitivas e cansativas, principalmente no front-end em que devemos minificar pra colocar em produção, desminificar para desenvolver e muitos outros processos. Esses processos podem ser muito custosos para o desenvolvedor e o cliente final pela demora para realizar todos os processos antes de fazer uma liberação e piora se houverem muitos arquivos. Além disso, podem ocorrer falhas humanas no trajeto tendo de refazer tudo novamente.
