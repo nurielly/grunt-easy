@@ -26,7 +26,8 @@ grunt.loadNpmTasks('grunt-contrib-cssmin');
 
 * Fazendo a Concatenação de vários arquivos em 1:
 Para fazer a concatenação basta envolver as importações dos arquivos, com comentários usanda build: extanção nome_do_novo_arquivo.extensao. Exemplo:
-´´´
+
+```
 <!-- build:css css/index.min.css -->
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/index.css">
@@ -35,19 +36,17 @@ Para fazer a concatenação basta envolver as importações dos arquivos, com co
 <!-- build:js js/index.min.js -->
 <script src="js/index.js"></script>
 <!-- endbuild -->
-
-´´´
+```
 
 Depois de executar o UseMin, ficará assim:
-´´´
+```
 <link rel="stylesheet" href="css/index.min.css">
 <script src="js/index.min.js"></script>
-´´´
+```
 
 * Implemetação no gruntFile.js:
-´´´
+```
 module.exports = function(grunt) {
-
   grunt.initConfig({
     copy: {
         public: {
@@ -91,4 +90,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-usemin');
 }
-´´´
+```
+
+
