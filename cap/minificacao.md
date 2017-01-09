@@ -21,5 +21,7 @@ function y(a){alert(a)}y()
 ```
 
 **Concatenação/Merge**  
-A concatenação/merge nos permite concatenar unir diversos arquivos em um. Por exemplo, temos vários arquivos JS, ou seja, várias requisições no servidor, com a concatenação teremos somente uma requisição. Trazendo um carregamento ágil.
+A concatenação/merge nos permite concatenar unir diversos arquivos em um. Por exemplo, temos vários arquivos JS, ou seja, várias requisições no servidor, com a concatenação teremos somente uma requisição. Trazendo um carregamento ágil. Minificação e concatenação são as tarefas mais executadas pelo Grunt.
+
+
 
